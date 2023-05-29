@@ -10,7 +10,6 @@ table, th, td {
 th { 
     background-color:#000;
     color:white;
-    width:50%;
 }
 td, th { 
     padding:5px;
