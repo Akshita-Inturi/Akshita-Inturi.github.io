@@ -1,7 +1,7 @@
 // DOM manipulation (Document Object Model)
 // document.getElementById
 
-alert("check");
+// alert("check");
 
 var data1 = {image : "recentPic.jpeg", name : "Akshita Inturi", designation : "Student"};
 var data2 = {image : "childPic.jpeg", name : "Akki Inturi", designation : "stud"};
