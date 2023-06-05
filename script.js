@@ -16,8 +16,8 @@ var changePic = function() {
     } else {
         displayData = data1;
         isData1 = true;
-        document.getElementById("myImg").src=displayData.image;
-        document.getElementById("myName").innerHTML=displayData.name;
-        document.getElementById("desg").innerHTML=displayData.designation;
     }
+    document.getElementById("myImg").src=displayData.image;
+    document.getElementById("myName").innerHTML=displayData.name;
+    document.getElementById("desg").innerHTML=displayData.designation;
 }
