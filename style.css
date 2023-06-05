@@ -21,3 +21,9 @@ body {
 	background-image: linear-gradient(rgb(241, 235, 235), rgb(236, 246, 151));
 	overflow: auto;
 }
+
+.toggle {
+    background-color: grey;
+    color: brown;
+    
+}
