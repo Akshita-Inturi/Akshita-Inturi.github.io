@@ -2,7 +2,7 @@
 // document.getElementById
 
 var data1 = {image : "recentPic.jpeg", name : "Akshita Inturi", designation : "Student"};
-var data2 = {image : "childPic.jpeg", name : "Akki Inturi", designation : "Student"};
+var data2 = {image : "childPic.jpeg", name : "Akki Inturi", designation : "stud"};
 
 var isData1 = true;
 var displayData;
