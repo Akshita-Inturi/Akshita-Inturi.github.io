@@ -1,5 +1,5 @@
 // DOM manipulation (Document Object Model)
-// Document.getElementById
+// document.getElementById
 
 var data1 = {image : "recentPic.jpeg", name : "Akshita Inturi", designation : "Student"};
 var data2 = {image : "childPic.jpeg", name : "Akki Inturi", designation : "Student"};
@@ -14,6 +14,8 @@ var changePic = function() {
     } else {
         displayData = data1;
         isData1 = true;
-        Document.getElementById("myImg").src=displayData.image;
+        document.getElementById("myImg").src=displayData.image;
+        document.getElementById("myName").innerHTML=displayData.name;
+        document.getElementById("desg").innerHTML=displayData.designation;
     }
 }
