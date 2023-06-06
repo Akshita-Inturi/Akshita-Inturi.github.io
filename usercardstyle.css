@@ -26,11 +26,6 @@
 }
 
 .toggle {
-    background-color: grey;
-    color: brown;
-}
-
-.button {
     background-color: #54c3f3;
     border: none;
     color: white;
@@ -39,4 +34,4 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
