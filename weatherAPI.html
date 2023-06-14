@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather</title>
-    <link rel="stylesheet" href="usercardstyle.css">
-</head>
-<body>
-    <div class="container">
-        <h1>User Card 3</h1>
-        <div class="card">
-            <img class="image" id="myImg" src="./childPic.jpeg" alt="" width="330px" height="400px">
-            <p class="name" id="myName">Akshita Inturi</p>
-            <p class="designation" id="desg">Student</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body >
+    <div class="app-wrap">
+      <header>
+        <input
+          type="text"
+          autocomplete="off"
+          class="search-box"
+          placeholder="Enter City"
+        />
+      </header>
+      <main>
+        <section class="location">
+          <div class="city"></div>
+          <div class="date"></div>
+        </section>
+        <div class="current">
+          <div class="temp"><span></span></div>
+          <div class="weather"></div>
+          <div class="hi-low"></div>
         </div>
-        <button onclick="changePic()" class="toggle">Flip</button>
+      </main>
     </div>
-    <script src="./script2.js"></script>
-</body>
+    <script src="weather.js"></script>
+  </body>
 </html>
